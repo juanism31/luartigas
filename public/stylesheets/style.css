@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'bebas-neue';
+  src: url(".././fonts/Bebas-neue/BebasNeue\ Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'din-pro-cond';
+  src: url(".././fonts/din-pro-cond/DINPro-Cond.otf") format("truetype");
+}
+@font-face{
+  font-family: 'din-pro-cond-black';
+  src: url('.././fonts/din-pro-cond/DINPro-CondBlack.otf') format('truetype')
+
+}
+@font-face{
+  font-family: 'din-pro-cond-bold';
+  src: url('.././fonts/din-pro-cond/DINPro-CondBold.otf') format('truetype')
+}
+@font-face{
+  font-family: 'din-pro-cond-medium';
+  src: url('.././fonts/din-pro-cond/DINPro-CondMedium.otf') format('truetype')
+ }
+@font-face{
+    font-family: 'bebas-neue-book';
+    src: url('.././fonts/bebas-neue/BebasNeue\ Book.ttf') format('truetype')
+}
+html{
+  scroll-behavior: smooth;
+}
+.imagen{
+  width: 100% ;
+  
+}
+body{
+  padding: 0%;
+  margin: 0%;
+}
+.descripcion{
+  font-family:"din-pro-cond";
+  color:#978E80 ;
+  background-color: #F5F6F7;
+  font-size: 1.9rem;
+  padding-left: 15vh;
+  padding-right: 15vh;
+  text-align:center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  font-family:'bebas-neue';
+  justify-content: space-between;
+  font-size: 7vh;
+  color: #323232;
+  background-color: white;
+  padding-left: 23vh;
+  padding-right: 23vh;
+  padding-bottom: 0%;
+  /* position: fixed;
+    top: 0px;
+  */
+}
+.menuop{
+  margin-bottom: 0%;
+}
+.titulo{
+  color: #EDC2C5;
+  font-family: 'din-pro-cond-black';
+  font-size:2rem ;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+
+}
+.servicios{
+  display: flex;
+  flex-direction: row;
+  font-family: 'din-pro-cond-bold';
+  justify-content: space-around;
+  font-size: 4vh;
+  flex-wrap: wrap;
+  padding-left: 15vh;
+  padding-right: 15vh;
+  color: #978E80;
+  background-color: #F5F6F7;
+
+}
+.div{
+background-color: #F5F6F7 ;
+margin-top: 2vh;
+
+}
+.servicio{
+  color: #978E80;
+  font-family: 'din-pro-cond-black';
+  text-align: center;
+  font-size: 1.7rem;
+  padding-bottom: 0%;
+  margin-bottom: 0%
+  ;
+}
+.descripcionServicio{
+    font-family:"din-pro-cond";
+    color:#978E80 ;
+    background-color: #F5F6F7;
+    font-size: 1.9rem;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    text-align:center;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+
+}
+.masinfo{
+  font-family: 'din-pro-cond-medium';
+  text-align: center;
+  font-size: 1.9rem;
+  color:#978E80;
+  margin-top: 0%;
+
+
+}
+.combo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cont-combo{
+  background-color: #F5F6F7;
+}
+.lema{
+  color:#E8D100;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  font-family: 'din-pro-cond-black';
+  justify-self: top;
+  padding-left: 0.7%;
+  
+}
+.servicios a{
+  color:unset;
+  text-decoration: none;
+}
+.menuop a{
+  color: unset;
+  text-decoration: none;
+}
+.logo-wsp{
+  width: 3.3rem;
+
+}
+.logo-ig{
+  width: 3rem;
+}
+.contacto{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 44%;
+  padding-right: 44%;
+  padding-top: 2%;
+
+}
+.cont-contacto{
+  background-color: #F5F6F7;
+}
+.contactoo{
+  font-family:"din-pro-cond";
+  color:#978E80 ;
+  background-color: #F5F6F7;
+  font-size: 1.9rem;
+   text-align:center;
+  margin-top: 0%;
+  padding-top: 0%;
+  margin-bottom: 0%;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 5%
+
+}
+.emaildir{
+  font-family:"bebas-neue-book";
+    color:#978E80 ;
+   
+    font-size: 1.9rem;
+    text-align:center;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+}
+.infomail{
+  font-family: 'bebas-neue';
+  color:#978E80 ;
+    padding-right: 1%;
+    font-size: 1.9rem;
+    text-align:center;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+}
