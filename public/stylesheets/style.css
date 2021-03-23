@@ -24,9 +24,6 @@
     src: url('.././fonts/bebas-neue/BebasNeue\ Book.ttf') format('truetype')
 }
 
-li:last-child {
-  list-style-type: none; 
-}
 html{
   scroll-behavior: smooth;
 }
@@ -69,8 +66,8 @@ text-align:center;
   background-color: white;
   padding-bottom: 0%;
   align-items: center;
-  /* position: fixed;
-    top: 0px; */
+  position: fixed;
+    top: 0px;
  
 }
 .menuop{
@@ -82,10 +79,10 @@ margin-bottom: 0%;
 .titulo{
   color: #EDC2C5;
   font-family: 'din-pro-cond-black';
-  font-size:2rem ;
+  font-size: 3.4vh; 
   text-align: center;
   margin-top: 5%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   letter-spacing: 5px;
 
 }
@@ -138,11 +135,12 @@ margin-top: 2vh;
     color:#978E80 ;
     
     font-size: 1.9rem;
-
+    list-style-type: none;
     text-align:center;
     margin-top: 0%;
     padding-top: 0%;
     margin-bottom: 0%;
+    marker: none;
 
 }
 .masinfo{
@@ -254,14 +252,19 @@ margin-top: 2vh;
     padding-right: 5vh;
   }
   .descripcion{
-    font-size: 4vh;
+    font-size: 3.5vh;
 
   }
   .servicio{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
   .descripcionServicio{
     font-size: 3.4vh
+  }
+  .descripcionServicio ul{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 3.2vh;
   }
   .serviciocombo{
     font-size: 3.4vh;
@@ -278,4 +281,24 @@ margin-top: 2vh;
   }
   .descripcionServicio ul{
     padding-left: 0%;
+  }
+  .email{
+    flex-direction: column;
+
+  }
+  .infomail{
+    font-size: 3vh;
+  }
+  .emaildir{
+    font-size: 3vh;
+  }
+  .imagen{
+    margin-top: 16%;
+  }
+  .lema{
+    font-size: 4vh;
+  }
+  .email{
+    margin-bottom: 2%;
+    margin-top: 2%
   }
