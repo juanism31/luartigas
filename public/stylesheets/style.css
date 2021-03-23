@@ -23,9 +23,14 @@
     font-family: 'bebas-neue-book';
     src: url('.././fonts/bebas-neue/BebasNeue\ Book.ttf') format('truetype')
 }
+
+li:last-child {
+  list-style-type: none; 
+}
 html{
   scroll-behavior: smooth;
 }
+
 .imagen{
   width: 100% ;
   
@@ -34,34 +39,45 @@ body{
   padding: 0%;
   margin: 0%;
 }
+.recuadro{
+  background-color: #F5F6F7;
+  /* padding-left: 15vh;
+  padding-right: 15vh; */
+  padding-top: 43px;
+  padding-bottom: 43px;
+
+}
 .descripcion{
   font-family:"din-pro-cond";
   color:#978E80 ;
-  background-color: #F5F6F7;
-  font-size: 1.9rem;
-  padding-left: 15vh;
-  padding-right: 15vh;
-  text-align:center;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  
+  font-size: 1.7rem;
+  padding: 0%;
+  margin: 0%;
+  
+text-align:center;
+  
 }
 .menu{
   display: flex;
+  width: 100%; 
   flex-direction: row;
   font-family:'bebas-neue';
-  justify-content: space-between;
-  font-size: 7vh;
+  justify-content: space-evenly;
+  font-size: 2.5rem;
   color: #323232;
   background-color: white;
-  padding-left: 23vh;
-  padding-right: 23vh;
   padding-bottom: 0%;
+  align-items: center;
   /* position: fixed;
-    top: 0px;
-  */
+    top: 0px; */
+ 
 }
 .menuop{
-  margin-bottom: 0%;
+ padding-top: 25px;
+ padding-bottom: 25px;
+margin-top: 0%;
+margin-bottom: 0%;
 }
 .titulo{
   color: #EDC2C5;
@@ -70,20 +86,27 @@ body{
   text-align: center;
   margin-top: 5%;
   margin-bottom: 2%;
+  letter-spacing: 5px;
 
 }
 .servicios{
   display: flex;
   flex-direction: row;
+  
   font-family: 'din-pro-cond-bold';
-  justify-content: space-around;
+  justify-content: center;
   font-size: 4vh;
   flex-wrap: wrap;
-  padding-left: 15vh;
-  padding-right: 15vh;
+  /* padding-left: 15vh;
+  padding-right: 15vh; */
   color: #978E80;
   background-color: #F5F6F7;
 
+}
+.servicios ul{
+  padding-left: 2%;
+  margin-left: 0%;
+  list-style-type: none; 
 }
 .div{
 background-color: #F5F6F7 ;
@@ -99,13 +122,23 @@ margin-top: 2vh;
   margin-bottom: 0%
   ;
 }
+.serviciocombo{
+  color: #978E80;
+  font-family: 'din-pro-cond-black';
+  text-align: center;
+  font-size: 1.7rem;
+  padding-bottom: 0%;
+  margin-bottom: 0%
+  ;
+}
+
+
 .descripcionServicio{
-    font-family:"din-pro-cond";
+    font-family:"din-pro-cond-medium";
     color:#978E80 ;
-    background-color: #F5F6F7;
+    
     font-size: 1.9rem;
-    padding-left: 15vh;
-    padding-right: 15vh;
+
     text-align:center;
     margin-top: 0%;
     padding-top: 0%;
@@ -206,3 +239,43 @@ margin-top: 2vh;
     padding-top: 0%;
     margin-bottom: 0%;
 }
+@media(max-width: 900px){
+  .menu{
+      flex-direction: row;
+      font-family:'bebas-neue';
+      justify-content: space-evenly;
+      font-size: 3vh;
+  }
+  .menuop{
+    padding-left: 0%;
+  }
+  .recuadro{
+    padding-left: 5vh;
+    padding-right: 5vh;
+  }
+  .descripcion{
+    font-size: 4vh;
+
+  }
+  .servicio{
+    margin-bottom: 10%;
+  }
+  .descripcionServicio{
+    font-size: 3.4vh
+  }
+  .serviciocombo{
+    font-size: 3.4vh;
+    margin-bottom: 0%;
+    scroll-padding-bottom: 0%;
+  }
+}
+.combo{
+  flex-direction: column;
+  margin-bottom: 5%;
+  }
+  .lema{
+    margin-top: 0%;
+  }
+  .descripcionServicio ul{
+    padding-left: 0%;
+  }
