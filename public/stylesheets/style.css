@@ -196,6 +196,10 @@ margin-top: 2vh;
   padding-top: 2%;
 
 }
+.contacto{
+  color:unset;
+  text-decoration: none;
+}
 .cont-contacto{
   background-color: #F5F6F7;
 }
@@ -226,6 +230,10 @@ margin-top: 2vh;
     margin-top: 0%;
     padding-top: 0%;
     margin-bottom: 0%;
+}
+.emaildir a{
+  color:unset;
+  text-decoration: none;
 }
 .infomail{
   font-family: 'bebas-neue';
