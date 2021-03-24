@@ -237,6 +237,9 @@ margin-top: 2vh;
     padding-top: 0%;
     margin-bottom: 0%;
 }
+.blanco{
+  padding-top: 5%;
+}
 @media(max-width: 900px){
   .menu{
       flex-direction: row;
@@ -258,6 +261,16 @@ margin-top: 2vh;
   .servicio{
     margin-bottom: 5%;
   }
+  .servicios{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0%;
+    font-size: 3.9vhs;
+  }
+  .servicios ul{
+    margin-bottom: 0%;
+    margin-top:4% ;
+  }
   .descripcionServicio{
     font-size: 3.4vh
   }
@@ -270,8 +283,10 @@ margin-top: 2vh;
     font-size: 3.4vh;
     margin-bottom: 0%;
     scroll-padding-bottom: 0%;
+    padding-left: 0%;
+  
   }
-}
+
 .combo{
   flex-direction: column;
   margin-bottom: 5%;
@@ -279,9 +294,8 @@ margin-top: 2vh;
   .lema{
     margin-top: 0%;
   }
-  .descripcionServicio ul{
-    padding-left: 0%;
-  }
+  
+   
   .email{
     flex-direction: column;
 
@@ -302,3 +316,4 @@ margin-top: 2vh;
     margin-bottom: 2%;
     margin-top: 2%
   }
+}
