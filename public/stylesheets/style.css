@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'bebas-neue';
   src: url(".././fonts/Bebas-neue/BebasNeue\ Regular.ttf") format("truetype");
+  src: url(".././fonts/bebasneue_book-webfont.woff format")("truetype");
 }
 @font-face {
   font-family: 'din-pro-cond';
@@ -51,7 +52,10 @@ body{
   font-size: 1.7rem;
   padding: 0%;
   margin: 0%;
-  
+  /* padding-top: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom:7%  ; */
 text-align:center;
   
 }
@@ -68,6 +72,7 @@ text-align:center;
   align-items: center;
   position: fixed;
     top: 0px;
+    letter-spacing: 2px;
  
 }
 .menuop{
@@ -79,12 +84,22 @@ margin-bottom: 0%;
 .titulo{
   color: #EDC2C5;
   font-family: 'din-pro-cond-black';
-  font-size: 3.4vh; 
+  font-size: 3.7vh; 
   text-align: center;
   margin-top: 5%;
   margin-bottom: 4%;
   letter-spacing: 5px;
 
+}
+.titulop
+{
+  color: #EDC2C5;
+  font-family: 'din-pro-cond-black';
+  font-size: 3.1vh; 
+  text-align: center;
+  margin-top: 13%;
+  margin-bottom: 4%;
+  letter-spacing: 3px;
 }
 .servicios{
   display: flex;
@@ -114,7 +129,7 @@ margin-top: 2vh;
   color: #978E80;
   font-family: 'din-pro-cond-black';
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 3.4vh;
   padding-bottom: 0%;
   margin-bottom: 0%
   ;
@@ -125,13 +140,13 @@ margin-top: 2vh;
   text-align: center;
   font-size: 1.7rem;
   padding-bottom: 0%;
-  margin-bottom: 0%
-  ;
+  margin-bottom: 0%;
+
 }
 
 
 .descripcionServicio{
-    font-family:"din-pro-cond-medium";
+    font-family:"din-pro-cond";
     color:#978E80 ;
     
     font-size: 1.9rem;
@@ -143,10 +158,23 @@ margin-top: 2vh;
     marker: none;
 
 }
+.h5descripcionServicio{
+  padding-top: 10%;
+  font-family:"din-pro-cond";
+  color:#978E80 ;
+  
+  font-size: 1.9rem;
+  list-style-type: none;
+  text-align:center;
+  margin-top: 0%;
+ 
+  margin-bottom: 0%;
+  marker: none;
+}
 .masinfo{
   font-family: 'din-pro-cond-medium';
   text-align: center;
-  font-size: 1.9rem;
+  font-size: 1.55rem;
   color:#978E80;
   margin-top: 0%;
 
@@ -157,6 +185,8 @@ margin-top: 2vh;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20%;
 }
 .cont-combo{
   background-color: #F5F6F7;
@@ -181,7 +211,7 @@ margin-top: 2vh;
   text-decoration: none;
 }
 .logo-wsp{
-  width: 3.3rem;
+  width: 3rem;
 
 }
 .logo-ig{
@@ -189,16 +219,21 @@ margin-top: 2vh;
 }
 .contacto{
   display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 44%;
-  padding-right: 44%;
-  padding-top: 2%;
+ 
+  justify-content: end;
+  width: 100%;
+  padding-bottom: 4%;
+  opacity: 0.8;
+  
+  
+
 
 }
 .contacto{
   color:unset;
   text-decoration: none;
+  position: fixed;
+    bottom: 0%;
 }
 .cont-contacto{
   background-color: #F5F6F7;
@@ -248,12 +283,17 @@ margin-top: 2vh;
 .blanco{
   padding-top: 5%;
 }
+
+.sindividuales{
+  margin-bottom: 7%;
+}
 @media(max-width: 900px){
   .menu{
       flex-direction: row;
       font-family:'bebas-neue';
       justify-content: space-evenly;
-      font-size: 3vh;
+      font-size: 130%;
+
   }
   .menuop{
     padding-left: 0%;
@@ -273,34 +313,59 @@ margin-top: 2vh;
     display: flex;
     flex-direction: row;
     margin-bottom: 0%;
-    font-size: 3.9vhs;
+    font-size: 3.4vh;
   }
   .servicios ul{
+    /* display: flex;
+    flex-direction: column; */
     margin-bottom: 0%;
     margin-top:4% ;
+    margin-bottom: 5%;
+
+  }
+  .separadorMenu{
+    width: 2px;
+    background-color: #978E80;
   }
   .descripcionServicio{
     font-size: 3.4vh
+  }
+  .h5descripcionServicio{
+    font-size: 3.4vh
+  }
+
+  .menu1{
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 43.5%;
+  }
+  .menu2{
+    margin-left: 5%;
+    width: 43.5%;
+    display: flex;
+    flex-direction: column;
   }
   .descripcionServicio ul{
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 3.2vh;
+   padding-left: 0%;
   }
   .serviciocombo{
     font-size: 3.4vh;
-    margin-bottom: 0%;
-    scroll-padding-bottom: 0%;
-    padding-left: 0%;
+    margin-top: 0%;
   
   }
 
 .combo{
-  flex-direction: column;
-  margin-bottom: 5%;
+ 
+  margin-bottom: 3%;
   }
   .lema{
     margin-top: 0%;
+    font-size: 3.4vh;
   }
   
    
@@ -317,11 +382,12 @@ margin-top: 2vh;
   .imagen{
     margin-top: 16%;
   }
-  .lema{
-    font-size: 4vh;
-  }
+ 
   .email{
     margin-bottom: 2%;
     margin-top: 2%
   }
 }
+
+
+/* espaciado titulo a 100*/ 
