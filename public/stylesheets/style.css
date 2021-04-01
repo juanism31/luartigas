@@ -1,7 +1,9 @@
 @font-face {
   font-family: 'bebas-neue';
   src: url(".././fonts/Bebas-neue/BebasNeue\ Regular.ttf") format("truetype");
-  src: url(".././fonts/bebasneue_book-webfont.woff format")("truetype");
+  src: url(".././fonts/bebas-neue/BebasNeue\ Regular.otf") format("truetype");
+  src: url(".././fonts/bebas-neue/bebasneue_regular-webfont.woff") format("truetype");
+  src: url(".././fonts/bebas-neue/bebasneue_regular-webfont.woff2") format("truetype");
 }
 @font-face {
   font-family: 'din-pro-cond';
@@ -22,7 +24,9 @@
  }
 @font-face{
     font-family: 'bebas-neue-book';
-    src: url('.././fonts/bebas-neue/BebasNeue\ Book.ttf') format('truetype')
+    src: url('.././fonts/bebas-neue/BebasNeue\ Book.ttf') format('truetype');
+    src: url(".././fonts/bebasneue_book-webfont.woff") format("truetype");
+    src: url(".././fonts/bebasneue_book-webfont.woff2") format("truetype");
 }
 
 html{
@@ -52,10 +56,20 @@ body{
   font-size: 1.7rem;
   padding: 0%;
   margin: 0%;
-  /* padding-top: 7%;
+  padding-top: 7%;
   padding-left: 7%;
   padding-right: 7%;
-  padding-bottom:7%  ; */
+  padding-bottom:7%  ;
+text-align:center;
+  
+}
+.descripcionaboutus{
+  font-family:"din-pro-cond";
+  color:#978E80 ;
+  
+  font-size: 1.7rem;
+  padding: 0%;
+  margin: 0%;
 text-align:center;
   
 }
