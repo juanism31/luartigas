@@ -230,7 +230,7 @@ margin-top: 2vh;
   text-decoration: none;
 }
 .logo-wsp{
-  width: 3.3rem;
+  width: 4 rem;
 
 }
 .logo-ig{
@@ -256,7 +256,7 @@ margin-top: 2vh;
     bottom: 0%;
 }
 .contacto a{
-  padding-right: 5%;
+  padding-right: 3%;
 }
 .cont-contacto{
   background-color: #F5F6F7;
@@ -383,7 +383,7 @@ margin-top: 2vh;
   .descripcionServicio ul{
     margin-top: 2%;
     margin-bottom: 2%;
-    font-size: 3.2vh;
+    font-size: 3.4vh;
    padding-left: 0%;
   }
   .serviciocombo{
