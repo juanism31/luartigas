@@ -145,7 +145,8 @@ margin-top: 2vh;
   text-align: center;
   font-size: 3.4vh;
   padding-bottom: 0%;
-  margin-bottom: 0%
+  margin-bottom: 0%;
+  margin-top:25%
   ;
 }
 .serviciocombo{
@@ -172,6 +173,10 @@ margin-top: 2vh;
     marker: none;
 
 }
+.descripcionServicio strong{
+  font-family: 'din-pro-cond-medium';
+}
+
 .h5descripcionServicio{
   padding-top: 10%;
   font-family:"din-pro-cond";
@@ -225,7 +230,7 @@ margin-top: 2vh;
   text-decoration: none;
 }
 .logo-wsp{
-  width: 3rem;
+  width: 3.3rem;
 
 }
 .logo-ig{
@@ -233,6 +238,7 @@ margin-top: 2vh;
 }
 .contacto{
   display:flex;
+  flex-direction: row-reverse;
  
   justify-content: end;
   width: 100%;
@@ -248,6 +254,9 @@ margin-top: 2vh;
   text-decoration: none;
   position: fixed;
     bottom: 0%;
+}
+.contacto a{
+  padding-right: 5%;
 }
 .cont-contacto{
   background-color: #F5F6F7;
@@ -284,6 +293,10 @@ margin-top: 2vh;
   color:unset;
   text-decoration: none;
 }
+.descripcionServicio a{
+  color:unset;
+  text-decoration: none;
+}
 .infomail{
   font-family: 'bebas-neue';
   color:#978E80 ;
@@ -317,11 +330,11 @@ margin-top: 2vh;
     padding-right: 5vh;
   }
   .descripcion{
-    font-size: 3.5vh;
+    font-size: 3.4vh;
 
   }
   .servicio{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
   }
   .servicios{
     display: flex;
@@ -338,14 +351,19 @@ margin-top: 2vh;
 
   }
   .separadorMenu{
-    width: 2px;
+    width: 1px;
     background-color: #978E80;
   }
   .descripcionServicio{
     font-size: 3.4vh
   }
   .h5descripcionServicio{
-    font-size: 3.4vh
+    font-size: 3.4vh;
+    font-family: 'din-pro-cond-medium';
+
+  }
+  .descripcionServicio strong{
+    font-family: 'din-pro-cond-medium';
   }
 
   .menu1{
@@ -372,10 +390,14 @@ margin-top: 2vh;
     margin-top: 0%;
   
   }
-
+.padding{
+  padding-top: 10%;
+}
 .combo{
  
   margin-bottom: 3%;
+  margin-top: 0%;
+  flex-direction: column;
   }
   .lema{
     margin-top: 0%;
@@ -388,10 +410,10 @@ margin-top: 2vh;
 
   }
   .infomail{
-    font-size: 3vh;
+    font-size: 3.5vh;
   }
   .emaildir{
-    font-size: 3vh;
+    font-size: 3.5vh;
   }
   .imagen{
     margin-top: 16%;
@@ -399,7 +421,7 @@ margin-top: 2vh;
  
   .email{
     margin-bottom: 2%;
-    margin-top: 2%
+    margin-top: 0%
   }
 }
 
