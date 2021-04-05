@@ -61,6 +61,7 @@ body{
   padding-right: 7%;
   padding-bottom:7%  ;
 text-align:center;
+letter-spacing: 2px;
   
 }
 .descripcionaboutus{
@@ -416,6 +417,7 @@ margin-top: 2vh;
   }
   .emaildir{
     font-size: 3.5vh;
+    letter-spacing: 1px;
   }
   .imagen{
     margin-top: 16%;
