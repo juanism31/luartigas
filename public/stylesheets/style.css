@@ -377,6 +377,7 @@ margin-top: 2vh;
     align-items: end;
     width: 43.5%;
     text-align: end;
+    justify-content: end;
   }
   .menu2{
     margin-left: 5%;
