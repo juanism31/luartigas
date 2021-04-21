@@ -85,10 +85,11 @@ text-align:center;
   background-color: white;
   padding-bottom: 0%;
   align-items: center;
+  overflow: auto;
   position: fixed;
     top: 0px;
     letter-spacing: 2px;
- 
+  
 }
 .menuop{
  padding-top: 25px;
@@ -149,6 +150,10 @@ margin-top: 2vh;
   margin-bottom: 0%;
   margin-top:25%
   ;
+}
+.servicio h4{
+  margin: 0%;
+  padding: 0%;
 }
 .serviciocombo{
   color: #978E80;
