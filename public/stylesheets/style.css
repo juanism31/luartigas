@@ -435,6 +435,18 @@ margin-top: 2vh;
     margin-bottom: 2%;
     margin-top: 0%
   }
+  .fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 3%;
+  }
+  .fotos img{
+    width: 23%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+  }
 }
 
 
