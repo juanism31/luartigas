@@ -442,10 +442,18 @@ margin-top: 2vh;
     padding-bottom: 5%;
     padding-top: 3%;
   }
-  .fotos img{
+  .fotosimg{
     width: 23%;
     padding-right: 1.5%;
     padding-left: 1.5%;
+    height: 23%;
+  }
+  .fotosimg:hover{
+    width:400px;
+   padding-left: 7px;
+   padding-right: 7px;
+
+  
   }
 }
 
