@@ -449,9 +449,12 @@ margin-top: 2vh;
     height: 23%;
   }
   .fotosimg:hover{
-    width:400px;
-   padding-left: 7px;
-   padding-right: 7px;
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    overflow: hidden;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+
 
   
   }
