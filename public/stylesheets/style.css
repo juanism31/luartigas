@@ -455,19 +455,11 @@ margin-top: 2vh;
   }
   .fotosimg1:hover{
     -webkit-transform: scale(5,5);
-    transform: scale(3,3);
+    transform: scale(5,5);
     overflow: hidden;
     -webkit-transition: 0.2s;
     transition: 0.2s;
-    
-    
-    /* backface-visibility: hidden; */
-    /* -webkit-backface-visibility: hidden; */
     padding-left: 14.5%;
-  
-    filter:blur(0);
-    -webkit-filter: blur(0
-    );
   }
   .fotosimg2{
     display:flex;
