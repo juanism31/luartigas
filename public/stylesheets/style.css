@@ -452,17 +452,18 @@ margin-top: 2vh;
     transform: scale(1);
   }
   .fotosimg1:hover{
-    -webkit-transform: scale(5,5);
+    /* -webkit-transform: scale(5,5); */
     transform: scale(5,5);
-    scale: 5,5;
     overflow: hidden;
-    -webkit-transition: 0.2s;
+    /* -webkit-transition: 0.2s; */
     transition: 0.2s;
-    transform: translateZ(0);
+    
+    
     backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden; */
     padding-left: 14.5%;
-    -webkit-font-smoothing: subpixel-antialiased;
+  
+    filter:blur(0)
   }
   .fotosimg2{
     display:flex;
@@ -473,10 +474,12 @@ margin-top: 2vh;
   }
   .fotosimg2:hover{
     -webkit-transform: scale(5,5);
-    transform: scale(5,5);
+    /* transform: scale(5,5); */
     overflow: hidden;
-    -webkit-transition: 0.2s;
+    /* transition: 0.2s;-webkit-transition: 0.2s; */
     transition: 0.2s;
+    -webkit-backface-visibility: hidden;
+    filter: blur(0);
     
   }
   .fotosimg3{
