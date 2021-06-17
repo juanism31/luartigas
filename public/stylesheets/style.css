@@ -458,7 +458,8 @@ margin-top: 2vh;
     overflow: hidden;
     -webkit-transition: 0.2s;
     transition: 0.2s;
-    
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     padding-left: 14.5%;
   }
   .fotosimg2{
