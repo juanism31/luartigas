@@ -448,10 +448,13 @@ margin-top: 2vh;
     padding-right: 1.5%;
     padding-left: 1.5%;
     height: 23%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
   .fotosimg1:hover{
-    -webkit-transform: scale(5);
-    transform: scale(5);
+    -webkit-transform: scale(5,5);
+    transform: scale(5,5);
+    scale: 5,5;
     overflow: hidden;
     -webkit-transition: 0.2s;
     transition: 0.2s;
@@ -466,8 +469,8 @@ margin-top: 2vh;
     height: 23%;
   }
   .fotosimg2:hover{
-    -webkit-transform: scale(5);
-    transform: scale(5);
+    -webkit-transform: scale(5,5);
+    transform: scale(5,5);
     overflow: hidden;
     -webkit-transition: 0.2s;
     transition: 0.2s;
@@ -481,8 +484,8 @@ margin-top: 2vh;
     height: 23%;
   }
   .fotosimg3:hover{
-    -webkit-transform: scale(5);
-    transform: scale(5);
+    -webkit-transform: scale(5,5);
+    transform: scale(5,5);
     overflow: hidden;
     -webkit-transition: 0.2s;
     transition: 0.2s;
@@ -496,8 +499,8 @@ margin-top: 2vh;
     height: 23%;
   }
   .fotosimg4:hover{
-    -webkit-transform: scale(5);
-    transform: scale(5);
+    -webkit-transform: scale(5,5);
+    transform: scale(5,5);
     overflow: hidden;
     -webkit-transition: 0.2s;
     transition: 0.2s;
@@ -511,8 +514,8 @@ margin-top: 2vh;
     height: 23%;
   }
   .fotosimg5:hover{
-    -webkit-transform: scale(5);
-    transform: scale(5);
+    -webkit-transform: scale(5,5);
+    transform: scale(5,5);
     overflow: hidden;
     -webkit-transition: 0.2s;
     transition: 0.2s;
