@@ -455,10 +455,10 @@ margin-top: 2vh;
   }
   .fotosimg1:hover{
     -webkit-transform: scale(5,5);
-    transform: scale(5,5);
+    transform: scale(3,3);
     overflow: hidden;
-    /* -webkit-transition: 0.2s;
-    transition: 0.2s; */
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
     
     
     /* backface-visibility: hidden; */
